@@ -84,7 +84,6 @@ app.use('/api/v1/users', Users);
 app.use('/api/v1/monitors', Monitors);
 app.use('/api/v1/projects', Projects);
 app.use('/api/v1/contractors', Contractors);
-app.use('/api/v1/localreports', LocalReports);
 app.use('/api/v1/analytics', Analytics);
 app.use('/api/v1/reports', Reports);
 app.use('/api/v1/monitorsreports', MonitorsRep);
