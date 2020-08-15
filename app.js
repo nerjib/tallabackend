@@ -77,9 +77,7 @@ app.use((req, res, next) => {
   });
   
 app.get('/', function(req,res){
-res.json({
-    m:'k'
-})
+res.send('Welcome to talla')
 })
 app.use('/api/v1/chart', Chart);
 app.use('/api/v1/users', Users);
